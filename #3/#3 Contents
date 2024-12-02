@@ -1,0 +1,17 @@
+You will implement a Pets hierarchy. You'll create an Pet superclass with
+subclasses for Dog and Cat. Additionally, Cat will have a subclass Kitten.
+In the table above, the fields marked with “+” are attributes while the fields marked with “-”
+are methods. displayInfo() methods should return information regarding the respective class.
+For instance, in the Pet class, the displayInfo() should return the name, age and the price of
+the Pet object. Furthermore, for the Kitten class, displayInfo() method should be overridden
+such that it will return name, age, color, isIndoor and isHealthy fields.
+The other methods’ implementation should be as follows:
+public void fetch(){
+System.out. println(“The dog is fetching the ball!”);
+}
+public void scratch(){
+System.out.println(“The cat is scratching the furniture!”);
+}
+public void play(){
+System.out. println(“The kitten is playing!);
+}
