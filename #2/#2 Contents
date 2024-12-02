@@ -1,0 +1,132 @@
+Below, you can find the description of your labwork for today. You can also find the
+expected output of this code in the Application Walkthrough section.
+You are going to improve your Blockbuster DVDs Shop system on top of the previous
+week’s labwork.
+You are going to create a DVDRental class, that includes the following variables:
+Variable Name Type
+customer Customer
+movieName String
+duration int
+To achieve this goal, it's necessary to implement constructor overloading within your
+DVDRental class. In simpler terms, you should create two constructors: one with two
+parameters (customer and movieName), and another with three parameters (customer,
+movieName, and duration). By default, the rental duration will be set to 7 days. If a longer
+rental period is required, you can provide this information when using the three-parameter
+constructor.
+You should implement a menu as below;
+1. Enter Customer
+2. Display All Customers
+2. Rent a movie
+3. Rent a movie (custom duration)
+4. Display all rentals
+0. Exit
+Hint 1: Create another array to store DVDRental objects.
+Hint 2. When creating DVDRental objects, you should search the Customer array to find a
+customer with a given id at the 2nd and 3rd menu options.
+Application Walkthrough
+1. Enter Customer
+2. Display All Customers
+3. Rent a movie
+4. Rent a movie(Custom Duration)
+5. Display all rentals
+0. Exit
+1
+Enter id
+1
+Enter name
+Marty
+Enter surname
+McFly
+Enter age
+20
+Enter postCode
+123
+Enter email
+marty@mcfly.com
+Customer is saved!
+1. Enter Customer
+2. Display All Customers
+3. Rent a movie
+4. Rent a movie(Custom Duration)
+5. Display all rentals
+0. Exit
+1
+Enter id
+2
+Enter name
+Emmett
+Enter surname
+Brown
+Enter age
+50
+Enter postCode
+321
+Enter email
+emmett@brown.com
+Customer is saved!
+1. Enter Customer
+2. Display All Customers
+3. Rent a movie
+4. Rent a movie(Custom Duration)
+5. Display all rentals
+0. Exit
+2
+id:1
+name:Marty
+surname:McFly
+age:20
+postal code:123
+email:marty@mcfly.com
+id:2
+name:Emmett
+surname:Brown
+age:50
+postal code:321
+email:emmett@brown.com
+1. Enter Customer
+2. Display All Customers
+3. Rent a movie
+4. Rent a movie(Custom Duration)
+5. Display all rentals
+0. Exit
+3
+Enter customer id: 3
+Enter movie name: LOTR
+1. Enter Customer
+2. Display All Customers
+3. Rent a movie
+4. Rent a movie(Custom Duration)
+5. Display all rentals
+0. Exit
+3
+Enter customer id: 1
+Enter movie name: LOTR
+1. Enter Customer
+2. Display All Customers
+3. Rent a movie
+4. Rent a movie(Custom Duration)
+5. Display all rentalsCustomer: Emmett
+Movie: Back to the Future
+Duration: 14
+1. Enter Customer
+2. Display All Customers
+3. Rent a movie
+4. Rent a movie(Custom Duration)
+5. Display all rentals
+0. Exit
+0
+0. Exit
+4
+Enter customer id: 2
+Enter movie name: Back to the Future
+Enter duration: 14
+1. Enter Customer
+2. Display All Customers
+3. Rent a movie
+4. Rent a movie(Custom Duration)
+5. Display all rentals
+0. Exit
+5
+Customer: Marty
+Movie: LOTR
+Duration: 7
