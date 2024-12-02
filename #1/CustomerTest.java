@@ -1,6 +1,4 @@
-package lab;
 import java.util.Scanner;
-
 
 
 public class CustomerTest {
