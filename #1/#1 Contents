@@ -1,0 +1,89 @@
+Below, you can find the description of your labwork for today. You can also check the
+expected output of this code in the Application Walkthrough section.
+You are required to develop a rental system for the Blockbuster Media Shop. For the first
+week, you are going to build a simple system that displays information about the customers in
+a loop as follows;
+1. Enter Customer
+2. Display All Customers
+0. Exit
+For this purpose, you will create a Customer class that includes id, name, surname, age,
+postCode, and email variables. It will also have a displayInfo() method to display the
+information about the Customer.
+When the user selects the 1st option, a new Customer object should be created and this
+object should be stored in an array. If the 2nd option is selected, all stored customer
+information should be printed on the screen.
+PS: You can use basic C-style arrays.
+Application Walkthrough
+1. Enter Customer
+2. Display All Customers
+0. Exit
+1
+Enter id
+1
+Enter name
+John
+Enter surname
+Smith
+Enter age
+20
+Enter postal code
+34724
+Enter email
+johnsmith@gmail.com
+1. Enter Customer
+2. Display All Customers
+0. Exit
+1
+Enter id
+2
+Enter name
+Megan
+Enter surname
+Brown
+Enter age
+30
+Enter postal code
+31411
+Enter email
+megan_brown@gmail.com
+1. Enter Customer
+2. Display All Customers
+0. Exit
+1
+Enter id
+3
+Enter name
+Eric
+Enter surname
+Bailey
+Enter age
+35
+Enter postal code
+32312
+Enter email
+ericbailey85@hotmail.com
+1. Enter Customer
+2. Display All Customers
+0. Exit
+2
+id:1
+name:John
+surname:Smith
+age:20
+postal code:34724
+email:johnsmith@gmail.com
+id:2
+name:Megan
+surname:Brown
+age:30
+postal code:31411
+email:megan_brown@gmail.com
+id:3
+name:Eric
+surname:Bailey
+age:35
+postal code:32312
+email:ericbailey85@hotmail.com
+1. Enter Customer
+2. Display All Customers
+0. Exit
