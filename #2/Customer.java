@@ -1,7 +1,3 @@
-package lab;
-
-
-
 public class Customer {
 
 	
