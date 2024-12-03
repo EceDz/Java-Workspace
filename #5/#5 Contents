@@ -1,0 +1,26 @@
+You are tasked with creating an Employee Management System that can handle
+different types of employees.
+You need to create an Interface called Employee. In this Interface, you should declare
+two methods, String getRole() and double calculateSalary().
+Create 3 separate classes, namely FullTimeEmployee, PartTimeEmployee and
+ContractEmployee. Each of these classes should implement the Employee Interface. Each
+class should provide its specific implementation for calculateSalary() based on the employee’s
+role, and getRole() to return the role of the employee.
+In the main class, use a list of Employee references to store objects of different types.
+Each object in the array will be treated as an Employee, but when you call calculateSalary()
+on each employee, Java will dynamically dispatch the correct version of calculateSalary()
+based on the actual object type.
+Initialize objects like below:
+employees[0] = new FullTimeEmployee(50000); // Full-time employee with a salary
+of 50,000
+employees[1] = new PartTimeEmployee(20, 120); // Part-time employee with hourly rate
+20 and 120 hours worked
+employees[2] = new ContractEmployee(30000); // Contract employee with a contract
+amount of 30,000
+Such that the output is:
+Role: Full-Time Employee
+Salary: 50000.0
+Role: Part-Time Employee
+Salary: 2400.0
+Role: Contract Employee
+Salary: 30000.0
