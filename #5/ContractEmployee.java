@@ -1,5 +1,3 @@
-package lab5;
-
 public class ContractEmployee implements Employee{
     private double contractAmount;
     
