@@ -1,0 +1,65 @@
+you are required to convert a C-style array to an ArrayList. You will
+start with the following, given array:
+Integer[] numbers = {10, 20, 30, 40, 50, 60};
+You first need to convert this array into an ArrayList. Then, use an Iterator to traverse
+through the ArrayList and print each number. Your code will NOT be graded if you don’t use
+Iterator.
+Provide a menu to the user with the following options:
+1- Add a Number
+2 - Remove a Number
+3 - Print Existing Number List
+4 - Exit
+You should use an Iterator to traverse and print the list after every modification. The
+program should continue showing the menu until the user selects Exit.
+Application Walkthrough
+Menu:
+1- Add a Number
+2 - Remove a Number
+3 - Print Existing Number List
+4 - Exit
+Enter your choice: 3
+Current Numbers in the List:
+10
+20
+30
+40
+50
+60
+Menu:
+1- Add a Number
+2 - Remove a Number
+3 - Print Existing Number List
+4 - Exit
+Enter your choice: 1
+Enter the number to add: 70
+70 added to the list.
+Current Numbers in the List:
+10
+20
+30
+40
+50
+60
+70
+Menu:
+1- Add a Number
+2 - Remove a Number
+3 - Print Existing Number List
+4 - Exit
+Enter your choice: 2
+Enter the number to remove: 20
+20 removed from the list.
+Current Numbers in the List:
+10
+30
+40
+50
+60
+70
+Menu:
+1- Add a Number
+2 - Remove a Number
+3 - Print Existing Number List
+4 - Exit
+Enter your choice: 4
+Exiting…Goodbye!
