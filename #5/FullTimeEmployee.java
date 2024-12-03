@@ -1,5 +1,3 @@
-package lab5;
-
 public class FullTimeEmployee implements Employee{
     private double salary;
     
