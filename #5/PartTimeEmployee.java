@@ -1,5 +1,3 @@
-package lab5;
-
 public class PartTimeEmployee implements Employee{
     private double hourlyRate;
     private int hoursWorked;
