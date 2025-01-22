@@ -1,1 +1,27 @@
-
+You are tasked with managing a collection of Computer objects. Each Computer has
+the following attributes:
+● brand (String)
+● processorSpeed (double, in GHz)
+● price (double)
+You should implement the Comparable interface in the Computer class to enable sorting by
+price. Furthermore, you are required to create a separate Comparator class to enable sorting
+by processor speed. Lastly, demonstrate both types of sorting in a Main class.
+Application Walkthrough
+Before sorting:
+Title: Java Basics, Author: Alice, Price: 29.99
+Title: Advanced Java, Author: Bob, Price: 39.99
+Title: Java Design Patterns, Author: Carol, Price: 24.99
+Title: Effective Java, Author: David, Price: 44.99
+Title: Clean Code, Author: Eve, Price: 35.99
+After sorting by price:
+Title: Java Design Patterns, Author: Carol, Price: 24.99
+Title: Java Basics, Author: Alice, Price: 29.99
+Title: Clean Code, Author: Eve, Price: 35.99
+Title: Advanced Java, Author: Bob, Price: 39.99
+Title: Effective Java, Author: David, Price: 44.99
+After sorting by title:
+Title: Advanced Java, Author: Bob, Price: 39.99
+Title: Clean Code, Author: Eve, Price: 35.99
+Title: Effective Java, Author: David, Price: 44.99
+Title: Java Basics, Author: Alice, Price: 29.99
+Title: Java Design Patterns, Author: Carol, Price: 24.99
