@@ -1,1 +1,36 @@
-
+You are tasked with developing a program that simulates basic e-commerce
+operations: you are required to design a program that simulates an order placement system
+with constraints on order quantity and size.
+Requirements:
+Place an Order: The user enters the product name and quantity they wish to order.
+Validation Rules:
+Quantities must be greater than 0.
+Orders larger than a certain threshold (e.g., 1,000 items) are not allowed.
+If any rule is violated, the program throws and handles an exception.
+Custom Exceptions:
+InvalidQuantityException: Thrown if the quantity is less than or equal to 0.
+OrderLimitExceededException: Thrown if the order exceeds the allowed
+size limit.
+Application Walkthrough
+Case 1: Successful Order
+Welcome to the E-Commerce Order System!
+Enter the product name: Laptop
+Enter the quantity: 5
+Order placed successfully: 5 units of Laptop
+Thank you for using the E-Commerce Order System!
+Case 2: Invalid Quantity
+Welcome to the E-Commerce Order System!
+Enter the product name: Phone
+Enter the quantity: -3
+Error: Quantity must be greater than 0.
+Enter the quantity: 3
+Order placed successfully: 3 units of Phone
+Thank you for using the E-Commerce Order System!
+Case 3: Order Limit Exceeded
+Welcome to the E-Commerce Order System!
+Enter the product name: Desk Chairs
+Enter the quantity: 1500
+Error: Order size exceeds the limit of 1000 items.
+Enter the quantity: 900
+Order placed successfully: 900 units of Desk Chairs
+Thank you for using the E-Commerce Order System!
