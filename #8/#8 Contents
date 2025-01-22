@@ -1,1 +1,25 @@
-
+You are tasked with creating a temperature converter application that allows users to
+convert between Celsius and Fahrenheit with GUI capabilities.
+Designing the GUI:
+1. Create a JFrame to serve as the main application window.
+2. Add the following components:
+○ A JLabel for instructions: "Enter Temperature:"
+○ A JTextField for user input.
+○ Two JRadioButtons for conversion direction:
+■ "Celsius to Fahrenheit"
+■ "Fahrenheit to Celsius"
+○ A JButton labeled Convert.
+○ A JLabel to display the conversion result.
+3. Write an ActionListener for the Convert button:
+○ Read the temperature value from the input field.
+○ Check which radio button is selected.
+○ Perform the appropriate conversion:
+■ (Celsius to Fahrenheit)
+■ (Fahrenheit to Celsius)
+○ Display the result in the result label.
+4. Add error handling for invalid input (e.g., show a message if the user enters non-numeric
+data etc).
+Hint: If you want to convert from Celcius to Fahrenheit, the formula is:
+fahrenheitTemperature = (celciusTemperature * 9 / 5) + 32.
+If you want to convert from Fahrenheit to Celcius, the formula is:
+celciusTemperature = (fahrenheitTemperature - 32) * 5 / 9;
